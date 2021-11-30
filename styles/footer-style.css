@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+}
+h4{
+    font-size: 41px;
+    margin: 0;
+}
+
+
+#footer{
+    width: 100%;
+
+    color: white;
+    margin: 0 auto;
+    position: relative;
+
+}
+#bottomSection{
+    background-color: #222222;
+    padding: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a a";
+}
+.inline{
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+.logoF{
+    width: 32px;
+    height: 32px;
+    margin-left: 0;
+}
+.logoI{
+    width: 38px;
+}
+
+#leftInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.inline :first-child, .inline :last-child{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    align-items: left;
+}
+
+.inline :first-child {
+    margin: 0px;
+}
+.iconeMail{
+    width: 30px;
+    margin: 0px;
+
+}
+.iconPhone {
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+}
+
+.footerLien{
+    color: white;
+}
+
+#mail{
+    padding: 3px 3px 3px 10px;
+    margin-right: 30px;
+    background-color: #d9d9d9;
+    color: #757575;
+    width: 100%;
+
+}
+.inline a{
+    padding: 3px 10px;
+    background-color: #AB0000;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+h5{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.phone {
+    align-items: center;
+}
+
+.HR {
+    display: flex;
+    flex-direction: column;
+}
+
+.HR p{
+    font-family: 'Catamaran';
+    font-size: 30px;
+}
+
+.HR img{
+    width: 142px;
+    height: 38px;
+}
+
+#rightInfo {
+    margin-left: 30px;
+}
+
+#imgcache{
+    opacity: 0;
+}
+
+.BR{
+    flex-direction: column;
+    padding-top: 50px;
+    position: absolute;
+    display: flex;
+    margin-left: 30px;
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 41px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.logopartenaires {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logopartenaires img{
+    margin: 20px;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width:860px) {
+
+    #bottomSection {
+        background-color: #222222;
+        padding: 100px 10px 100px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "a a";
+    }
+}
